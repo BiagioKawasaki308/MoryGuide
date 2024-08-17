@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mory's Game Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+    <center>
+    <header>
+        <h1><i class="fas fa-gamepad"></i> Mory's Game Tracker</h1>
+        <nav>
+            <button id="homeButton" class="nav-button"><i class="fas fa-home"></i> Home</button>
+            <input type="text" id="searchBar" placeholder="Search for games...">
+        </nav>
+    </header>
+    <main>
+        <section id="gameList" class="game-list">
+            <!-- Qui verranno visualizzati i giochi -->
+        </section>
+        <section id="myGames" class="game-list">
+            <h2>My Games</h2>
+            <div id="myGamesList"></div>
+        </section>
+    </main>
+    <footer>
+        <p><i class="fas fa-heart"></i> Made with love for Mory</p>
+    </footer>
+</center>
+    <script src="app.js"></script>
+</body>
+</html>
